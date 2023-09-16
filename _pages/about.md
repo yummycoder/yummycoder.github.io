@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: >
+    <p>Ph.D Candidate</p>
+    <p>Department of Computer Science and Engineering</p>
+    <p>University of California, Riverside</p>
+    <p><b>Email: </b>hyu125@ucr.edu</p>
 
 profile:
   align: right
@@ -12,7 +16,6 @@ profile:
     <p>465 Winston Chung Hall<p>
     <p>University of California, Riverside</p>
     <p>Riverside, CA, 92501</p>
-    <p><b>Email: </b>hyu125@ucr.edu</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
