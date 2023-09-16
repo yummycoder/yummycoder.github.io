@@ -3,10 +3,10 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-    <p>Ph.D Candidate</p>
-    <p>Department of Computer Science and Engineering</p>
-    <p>University of California, Riverside</p>
-    <p><b>Email: </b>hyu125@ucr.edu</p>
+    Ph.D Candidate<br/>
+    Department of Computer Science and Engineering<br/>
+    University of California, Riverside<br/>
+    <em>Email: </em>hyu125@ucr.edu<br/>
 
 profile:
   align: right
