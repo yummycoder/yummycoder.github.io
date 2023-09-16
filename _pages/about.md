@@ -22,8 +22,5 @@ My name is Hongmiao Yu, and I am a second-year Ph.D. student in the Department o
 
 <em>Email: </em>hyu125@ucr.edu<br/>
 
-<title>Education: </title>
-Ph.D in Computer Science, Department of Computer Science and Engineering, University of California, Riverside, USA (2021 - to date)<br/>
-M.S. in Computer Engineering, Department of Electrical and Computer Engineering, New York University Tandon School of Engineering, USA (2019-2021)<br/>
-B.Eng in Software Engineering, Software College, Northeastern University, China (2013-2017)<br/>
+
 
