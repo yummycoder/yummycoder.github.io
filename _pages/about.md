@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Hongmiao Yu, and I am a second-year Ph.D. student in the Department of Computer Science at the University of California, Riverside, under the supervision of K. K. Ramakrishnan. My area of interest is computer networking and security.<br/>
+My name is Hongmiao Yu, and I am a Ph.D. student in the Department of Computer Science at the University of California, Riverside, under the supervision of K. K. Ramakrishnan. My area of interest is computer networking and security.<br/>
 
 <em>Email: </em>hyu125@ucr.edu<br/>
 
