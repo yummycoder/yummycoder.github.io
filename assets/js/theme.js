@@ -1,13 +1,5 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-let toggleTheme = (theme) => {
-  if (theme == "dark") {
-    setTheme("light");
-  } else {
-    setTheme("dark");
-  }
-};
-
 let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
@@ -87,15 +79,5 @@ let transTheme = () => {
   }, 500);
 };
 
-let initTheme = (theme) => {
-  if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
-  }
-
-  setTheme(theme);
-};
-
-initTheme(localStorage.getItem("theme"));
+// Keep the site dark regardless of system preferences or a previously saved theme.
+setTheme("dark");

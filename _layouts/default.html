@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.lang }}" data-theme="dark">
 
   <!-- Head -->
   <head>
@@ -10,7 +10,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if page.layout == 'about' %}about-page {% endif %}{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
     {%- include header.html %}
@@ -45,9 +45,6 @@
         {{ content }}
       {% endif %}
     </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
